@@ -1,0 +1,62 @@
+{
+  "phase_name": "Phase 1: MVP Implementation",
+  "overall_objectives": "Establish core functionality for immediate value, validate the anomaly detection approach, deploy a working system in a controlled environment, and gather initial feedback and performance metrics. Achieve Tier 1 success criteria: accuracy >85%, false positive rate <5%, throughput >100K packets/hour.",
+  "tasks": [
+    {
+      "title": "Environment Setup and Project Initialization",
+      "description": "Create project repository, set up Python environment with virtualenv, initialize MLflow tracking, configure DVC for data versioning, set up pre-commit hooks, create project structure (data/, models/, src/, tests/, configs/, notebooks/, deployment/), and document setup process. Objectives: Ensure reproducible development environment. Dependencies: None. Success metrics: Environment configured and documented. Practical notes: Use bash scripts for automation, include .gitignore and Makefile.",
+      "status": "completed",
+      "priority": "high",
+      "dependencies": [],
+      "tools": ["Python 3.10+", "Virtual environment (venv/conda)", "Git", "MLflow", "DVC", "Pre-commit"]
+    },
+    {
+      "title": "Research, Analysis, and Benchmarking",
+      "description": "Review 2-3 papers on anomaly detection, analyze 2 datasets (e.g., CIC-IDS2017, NSL-KDD), define basic metrics (accuracy, FPR, throughput). Compare techniques: Isolation Forest, One-Class SVM, Autoencoder, Random Forest. Objectives: Understand SOTA and select baseline approaches. Dependencies: Environment setup. Success metrics: Benchmarking report with comparison table. Practical notes: Focus on network traffic datasets, document biases and preprocessing requirements.",
+      "status": "pending",
+      "priority": "high",
+      "dependencies": ["Environment Setup and Project Initialization"],
+      "tools": ["Jupyter Notebooks", "Pandas", "NumPy", "Scikit-learn", "Research papers"]
+    },
+    {
+      "title": "Data Engineering and Preprocessing",
+      "description": "Implement basic data loading for 2-3 datasets, extract 10-15 features (statistics, protocol flags), perform simple train/validation split, apply normalization. Objectives: Prepare clean, feature-rich dataset for modeling. Dependencies: Research and Benchmarking. Success metrics: Preprocessed dataset ready for training. Practical notes: Use EDA methods, handle class imbalance, ensure data quality monitoring.",
+      "status": "pending",
+      "priority": "high",
+      "dependencies": ["Research, Analysis, and Benchmarking"],
+      "tools": ["Pandas", "NumPy", "Scikit-learn", "Dask", "Wireshark/tshark", "Scapy"]
+    },
+    {
+      "title": "Model Development and Training",
+      "description": "Implement Isolation Forest and One-Class SVM with contamination tuning, perform basic hyperparameter optimization, serialize models. Objectives: Train baseline models achieving >85% accuracy. Dependencies: Data Engineering and Preprocessing. Success metrics: Trained models with evaluation metrics. Practical notes: Use cross-validation, document model artifacts in MLflow.",
+      "status": "pending",
+      "priority": "high",
+      "dependencies": ["Data Engineering and Preprocessing"],
+      "tools": ["Scikit-learn", "MLflow", "Joblib/Pickle"]
+    },
+    {
+      "title": "Evaluation and Optimization",
+      "description": "Implement comprehensive evaluation with metrics and visualizations, optimize models with GridSearchCV and threshold tuning. Objectives: Validate model performance against success criteria. Dependencies: Model Development and Training. Success metrics: Accuracy >85%, FPR <5%. Practical notes: Include fairness metrics, generate performance reports.",
+      "status": "pending",
+      "priority": "high",
+      "dependencies": ["Model Development and Training"],
+      "tools": ["Scikit-learn", "Matplotlib/Seaborn", "AIF360"]
+    },
+    {
+      "title": "Deployment and Monitoring",
+      "description": "Create Flask REST API with prediction endpoints and validation, build Docker container, set up basic monitoring. Objectives: Deploy working system with essential monitoring. Dependencies: Evaluation and Optimization. Success metrics: API latency <50ms, containerized deployment. Practical notes: Include health checks, basic logging.",
+      "status": "pending",
+      "priority": "high",
+      "dependencies": ["Evaluation and Optimization"],
+      "tools": ["Flask", "Docker & Docker Compose", "Prometheus (basic)"]
+    },
+    {
+      "title": "Initial Validation and Documentation",
+      "description": "Test system with known patterns, perform bias audit, create initial documentation (API docs, user guide). Objectives: Validate MVP against deliverables, ensure ethical compliance. Dependencies: Deployment and Monitoring. Success metrics: System validated, documentation complete. Practical notes: Use controlled traffic generation, document setup and usage.",
+      "status": "pending",
+      "priority": "medium",
+      "dependencies": ["Deployment and Monitoring"],
+      "tools": ["Testing frameworks", "AIF360", "Markdown"]
+    }
+  ]
+}

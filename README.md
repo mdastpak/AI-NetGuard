@@ -163,6 +163,10 @@ Full MLOps with advanced capabilities.
 - Architecture Diagrams
 - Model Cards
 - Runbook
+- **Phase-Specific Task Prompts:**
+  - Phase 1 MVP Tasks: `phase1-mvp.json`
+  - Phase 2 Enhancement Tasks: `phase2-enhancement.json`
+  - Phase 3 Expansion Tasks: `phase3-expansion.json`
 
 Templates available in `/docs/templates/`
 
@@ -198,4 +202,4 @@ Risk assessment, failure handling, and compliance (GDPR, CCPA, SOC2, ISO 27001).
 4. Deploy using Docker/Kubernetes
 5. Monitor with Prometheus/Grafana
 
-For detailed implementation prompts, refer to `project-spec.json`.
+For detailed implementation prompts, refer to `project-spec.json` and phase-specific task breakdowns in `phase1-mvp.json`, `phase2-enhancement.json`, and `phase3-expansion.json`.
