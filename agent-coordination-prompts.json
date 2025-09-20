@@ -1,0 +1,202 @@
+{
+  "coordination_framework": {
+    "meta_coordinator_agent": {
+      "role": "MetaCoordinatorAgent",
+      "function": "Oversees inter-agent coordination, conflict resolution, and resource optimization",
+      "coordination_prompts": {
+        "initial_deployment": "Deploy and initialize all 15+ specialized AI agents with autonomous coordination protocols. Establish communication channels, consensus mechanisms, and resource allocation systems. Ensure all agents are operational and can communicate effectively.",
+        "conflict_resolution": "Monitor inter-agent conflicts and implement resolution protocols. Analyze resource contention, prioritize critical tasks, and optimize agent collaboration for maximum efficiency.",
+        "performance_optimization": "Continuously monitor agent performance, identify bottlenecks, and dynamically reallocate resources. Implement load balancing and ensure optimal utilization of all agents.",
+        "evolution_coordination": "Coordinate agent evolution and specialization. Track agent lineage, manage knowledge transfer, and ensure evolutionary improvements enhance overall system performance."
+      }
+    },
+    "communication_protocols": {
+      "inter_agent_messaging": "Establish secure, efficient communication channels between all agents. Implement message prioritization, encryption, and real-time synchronization.",
+      "knowledge_sharing": "Create protocols for seamless knowledge transfer between agents. Implement shared memory systems and real-time information synchronization.",
+      "consensus_mechanisms": "Deploy voting systems and consensus algorithms for decision-making. Ensure all critical decisions are validated through multi-agent agreement.",
+      "feedback_loops": "Implement continuous feedback mechanisms between agents. Enable real-time performance monitoring and adaptive coordination adjustments."
+    }
+  },
+  "agent_specialization_prompts": {
+    "DataSynthesisAgent": {
+      "primary_function": "Generate unlimited synthetic data for training",
+      "coordination_prompts": {
+        "data_requirements": "Analyze current data needs from all agents and generate synthetic datasets that meet quality and diversity requirements.",
+        "quality_assurance": "Continuously validate synthetic data quality and adjust generation parameters based on model performance feedback.",
+        "diversity_optimization": "Ensure synthetic data covers all possible attack scenarios and network conditions for comprehensive training."
+      }
+    },
+    "FeatureEngineeringAgent": {
+      "primary_function": "Automated feature discovery and engineering",
+      "coordination_prompts": {
+        "feature_discovery": "Analyze raw network data and discover novel features using genetic algorithms and automated engineering techniques.",
+        "feature_selection": "Collaborate with ModelArchitectAgent to select optimal feature sets that maximize model performance.",
+        "real_time_engineering": "Implement streaming feature engineering for real-time network traffic analysis."
+      }
+    },
+    "ModelArchitectAgent": {
+      "primary_function": "Neural architecture search and optimization",
+      "coordination_prompts": {
+        "architecture_search": "Explore neural architectures using automated search algorithms, considering performance, efficiency, and scalability.",
+        "ensemble_design": "Design diverse model ensembles that complement each other and provide robust threat detection.",
+        "quantum_readiness": "Prepare architectures for quantum acceleration and post-quantum security requirements."
+      }
+    },
+    "AdversarialAgent": {
+      "primary_function": "Continuous security testing and defense evolution",
+      "coordination_prompts": {
+        "attack_simulation": "Generate sophisticated attack patterns to test system defenses and identify vulnerabilities.",
+        "defense_evolution": "Collaborate with other agents to evolve defense mechanisms based on discovered attack vectors.",
+        "red_team_operations": "Conduct automated red teaming exercises and provide feedback for system hardening."
+      }
+    },
+    "MonitoringAgent": {
+      "primary_function": "Real-time performance tracking and drift detection",
+      "coordination_prompts": {
+        "performance_monitoring": "Continuously monitor all system components and provide real-time performance metrics.",
+        "drift_detection": "Detect model drift, data distribution changes, and performance degradation.",
+        "predictive_maintenance": "Predict potential failures and coordinate preventive maintenance actions."
+      }
+    },
+    "ScalingAgent": {
+      "primary_function": "Global infrastructure optimization and auto-scaling",
+      "coordination_prompts": {
+        "resource_optimization": "Monitor resource utilization and optimize allocation across global infrastructure.",
+        "auto_scaling": "Implement intelligent scaling based on workload patterns and performance requirements.",
+        "global_deployment": "Coordinate deployment across multiple regions and cloud providers for optimal performance."
+      }
+    },
+    "SecurityAgent": {
+      "primary_function": "Autonomous threat response and quantum resistance",
+      "coordination_prompts": {
+        "threat_response": "Detect and respond to security threats in real-time, coordinating with other agents for comprehensive defense.",
+        "quantum_security": "Implement and maintain quantum-resistant encryption and security protocols.",
+        "compliance_monitoring": "Ensure continuous compliance with security standards and regulations."
+      }
+    },
+    "OptimizationAgent": {
+      "primary_function": "Continuous performance tuning and hyperparameter optimization",
+      "coordination_prompts": {
+        "hyperparameter_tuning": "Continuously optimize model hyperparameters using advanced algorithms and real-time feedback.",
+        "performance_tuning": "Monitor and optimize system performance across all components and workflows.",
+        "resource_efficiency": "Maximize computational efficiency while maintaining performance standards."
+      }
+    },
+    "EvaluationAgent": {
+      "primary_function": "Autonomous testing and validation",
+      "coordination_prompts": {
+        "model_evaluation": "Conduct comprehensive model evaluation using multiple metrics and test scenarios.",
+        "validation_testing": "Validate system performance against real-world data and edge cases.",
+        "benchmarking": "Maintain performance benchmarks and track improvements over time."
+      }
+    },
+    "DeploymentAgent": {
+      "primary_function": "Global system deployment and orchestration",
+      "coordination_prompts": {
+        "deployment_orchestration": "Manage seamless deployment across global infrastructure with zero downtime.",
+        "version_control": "Maintain version consistency across all deployment environments.",
+        "rollback_procedures": "Implement automated rollback procedures for deployment failures."
+      }
+    },
+    "RecoveryAgent": {
+      "primary_function": "Self-healing and failure recovery",
+      "coordination_prompts": {
+        "failure_detection": "Detect system failures and component malfunctions in real-time.",
+        "recovery_automation": "Implement automated recovery procedures and system restoration.",
+        "resilience_testing": "Continuously test system resilience and improve recovery mechanisms."
+      }
+    },
+    "LearningAgent": {
+      "primary_function": "Meta-learning and transfer learning",
+      "coordination_prompts": {
+        "meta_learning": "Implement learning to learn techniques for rapid adaptation to new scenarios.",
+        "transfer_learning": "Facilitate knowledge transfer between different domains and tasks.",
+        "continual_learning": "Enable lifelong learning without catastrophic forgetting."
+      }
+    },
+    "PrivacyAgent": {
+      "primary_function": "Data protection and differential privacy",
+      "coordination_prompts": {
+        "privacy_preservation": "Implement differential privacy and secure learning techniques.",
+        "data_protection": "Ensure data privacy throughout the entire pipeline.",
+        "compliance_enforcement": "Maintain compliance with privacy regulations and standards."
+      }
+    },
+    "EthicsAgent": {
+      "primary_function": "Autonomous ethical monitoring and fairness",
+      "coordination_prompts": {
+        "bias_detection": "Continuously monitor for bias in models and decision-making processes.",
+        "fairness_optimization": "Implement fairness constraints and optimization techniques.",
+        "ethical_validation": "Validate ethical implications of system decisions and actions."
+      }
+    },
+    "CommunicationAgent": {
+      "primary_function": "Inter-agent coordination and knowledge sharing",
+      "coordination_prompts": {
+        "message_routing": "Efficiently route messages and information between agents.",
+        "knowledge_synthesis": "Synthesize knowledge from multiple agents for comprehensive understanding.",
+        "consensus_building": "Facilitate consensus building among agents for critical decisions."
+      }
+    }
+  },
+  "coordination_scenarios": {
+    "system_initialization": {
+      "description": "Coordinated startup of all agents and systems",
+      "prompt": "Coordinate the sequential initialization of all agents, ensuring dependencies are met and communication channels are established before full system activation."
+    },
+    "performance_crisis": {
+      "description": "Response to system performance degradation",
+      "prompt": "Activate emergency coordination protocols, reallocate resources, and implement performance optimization measures across all agents."
+    },
+    "security_incident": {
+      "description": "Coordinated response to security threats",
+      "prompt": "Mobilize security-focused agents, isolate affected components, and coordinate defense evolution while maintaining system stability."
+    },
+    "scalability_event": {
+      "description": "Handling sudden increases in workload",
+      "prompt": "Coordinate rapid scaling operations, resource allocation, and performance optimization to handle increased demand."
+    },
+    "model_update": {
+      "description": "Coordinated model retraining and deployment",
+      "prompt": "Orchestrate model updates across all components, ensuring consistency and maintaining performance during transition."
+    },
+    "infrastructure_failure": {
+      "description": "Response to infrastructure component failures",
+      "prompt": "Activate recovery protocols, redistribute workloads, and coordinate system restoration with minimal downtime."
+    }
+  },
+  "evolutionary_coordination": {
+    "agent_evolution": {
+      "description": "Coordinated agent specialization and improvement",
+      "prompt": "Monitor agent performance, identify specialization opportunities, and coordinate evolutionary improvements across the agent ecosystem."
+    },
+    "knowledge_evolution": {
+      "description": "Evolution of shared knowledge base",
+      "prompt": "Facilitate knowledge sharing, identify knowledge gaps, and coordinate the evolution of the collective knowledge base."
+    },
+    "system_evolution": {
+      "description": "Overall system architecture evolution",
+      "prompt": "Analyze system performance, identify architectural improvements, and coordinate evolutionary changes to the overall system design."
+    }
+  },
+  "quantum_coordination": {
+    "quantum_integration": {
+      "description": "Integration of quantum computing capabilities",
+      "prompt": "Coordinate the integration of quantum algorithms, manage hybrid classical-quantum operations, and optimize quantum resource utilization."
+    },
+    "quantum_security": {
+      "description": "Quantum-resistant security coordination",
+      "prompt": "Implement and maintain quantum-resistant security measures, coordinate post-quantum cryptography deployment, and ensure quantum security readiness."
+    }
+  },
+  "cosmic_scale_coordination": {
+    "global_deployment": {
+      "description": "Coordination of worldwide deployment",
+      "prompt": "Manage global infrastructure deployment, coordinate cross-region operations, and ensure consistent performance worldwide."
+    },
+    "interstellar_operations": {
+      "description": "Coordination of space-based operations",
+      "prompt": "Coordinate satellite communications, manage orbital sensor networks, and ensure reliable interstellar threat detection capabilities."
+    }
+  }
+}
